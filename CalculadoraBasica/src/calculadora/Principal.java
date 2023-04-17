@@ -67,6 +67,8 @@ public class Principal {
 				break;
 			}
 		}while(op!=0);
+		
+		System.out.println("Gracias por usar el programa");
 
 	}
 
