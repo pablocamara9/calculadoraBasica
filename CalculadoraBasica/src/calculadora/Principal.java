@@ -21,7 +21,14 @@ public class Principal {
 					""");
 			op=Leer.datoInt();
 			switch(op) {
-			
+			case 1:
+				System.out.println("Diga un número:");
+				num1=Leer.datoDouble();
+				System.out.println("Diga otro número:");
+				num2=Leer.datoDouble();
+				result=num1+num2;
+				System.out.println("El resultado de la suma es "+result);
+				break;
 			}
 		}while(op!=0);
 
