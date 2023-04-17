@@ -38,6 +38,15 @@ public class Principal {
 				result=num1-num2;
 				System.out.println("El resultado de la resta es "+result);
 				break;
+				
+			case 3:
+				System.out.println("Diga un número:");
+				num1=Leer.datoDouble();
+				System.out.println("Diga otro número:");
+				num2=Leer.datoDouble();
+				result=num1*num2;
+				System.out.println("El resultado de la multiplicación es "+result);				
+				break;
 			}
 		}while(op!=0);
 
